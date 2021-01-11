@@ -119,6 +119,7 @@ class MusicActivity : AppCompatActivity() {
                     startService(intent)
                     yongPlayer.start()
                     timerStart()
+                    isPlaying = true
                 }
             }
             R.id.play_next -> {
